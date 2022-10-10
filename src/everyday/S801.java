@@ -1,0 +1,41 @@
+package everyday;
+/*
+---典型状态机DP问题---
+由于每次交换只会发生在两数组的相同位置上，使得问题变得简单：
+    仅需考虑交换当前位置后，当前元素与前后元素大小关系变化即可。
+又因为我们会从前往后处理每个位置，因此只需要考虑当前位置与前一位置的大小关系即可。
+PS:前后数字相等不是递增关系
+
+    创建数组dp[i][j]
+    i：表示所在nums1和nums2的位置index；
+    j：只有两类值，0表示不交换；1表示交换；
+    dp[i][0] 表示在nums1[i]和nums2[i]位置处，如果不交换位置的话，当前累积的操作次数。
+    dp[i][1] 表示在nums1[i]和nums2[i]位置处，如果交换位置的话，当前累积的操作次数。
+ */
+class S801 {
+    public int minSwap(int[] nums1, int[] nums2) {
+        int[][] dp = new int[nums1.length][2];
+
+        dp[0][0] = 0;  //初始不交换,累计次数为0
+        dp[0][1] = 1;  //初始交换,累计次数为1
+
+        for(int i = 1; i < nums1.length; i++){
+
+            int a1 = nums1[i - 1], a2 = nums1[i];  //前后两个数
+            int b1 = nums2[i - 1], b2 = nums2[i];
+
+            if( (a1<a2 && b1<b2) && (a1<b2 && b1<a2) ){           //情况1:nums1与nums2递增,并且互换后也递增
+                dp[i][0] = Math.min(dp[i-1][0], dp[i-1][1]);      //可随意交换
+                dp[i][1] = Math.min(dp[i-1][0], dp[i-1][1]) + 1;
+            }else if( a1<a2 && b1<b2 ){         //情况2: nums1与nums2递增,但互换后不递增
+                                                // 注意：判断条件不能写成(a1<a2 && b1<b2) && (a1>b2 || b1>a2), 这样会忽略等号的情况，前后相等也不是递增，属于情况3
+                dp[i][0] = dp[i-1][0];      //nums[i]不换 则nums[i-1]也不换
+                dp[i][1] = dp[i-1][1] + 1;  //nums[i]换 则nums[i-1]也要换
+            }else{                      //情况3:nums1和nums2不递增
+                dp[i][0] = dp[i-1][1];      //nums[i]不换 则nums[i-1]换
+                dp[i][1] = dp[i-1][0] + 1;  //nums[i]换 则nums[i-1]不换
+            }
+        }
+        return Math.min(dp[nums1.length-1][0], dp[nums1.length-1][1]);
+    }
+}
