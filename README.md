@@ -9,13 +9,20 @@
 | 2 | [1235. 规划兼职工作](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1235.md) | 困难 | 数组 / 动态规划 / 二分查找 |
 | 3 | [801. 使序列递增的最小交换次数](https://leetcode.cn/problems/minimum-swaps-to-make-sequences-increasing/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S801.md) | 困难 | 数组 / 状态机DP |
 
+## 🔥 dfs
+
+| # | Title | Solution | Diffuiculty | Topics |
+| :-- | :-- | :-- | :-- | :-- |
+| 1 | [112. 路径总和](https://leetcode.cn/problems/path-sum/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S112.md) | 简单 | 二叉树 / 深度优先搜索 |
+| 2 | [113. 路径总和 II](https://leetcode.cn/problems/path-sum-ii/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S113.md) | 中等 | 二叉树 / 深度优先搜索 / 回溯 |
+| 3 | [113. 路径总和 II](https://leetcode.cn/problems/shortest-bridge/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S934.md) | 中等 | 数组 / 深度优先搜索 / 递归 |
 
 
 ## 🔥 贪心
 
 | # | Title | Solution | Diffuiculty | Topics |
 | :-- | :-- | :-- | :-- | :-- |
-| 1 | [1710. 卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1710.md) | 简单 | 数组 / 贪心 |
+| 1 | [934. 最短的桥](https://leetcode.cn/problems/maximum-units-on-a-truck/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1710.md) | 简单 | 数组 / 贪心 |
 
 
 ## 🔥 单调栈
@@ -32,6 +39,13 @@
 | :-- | :-- | :-- | :-- | :-- |
 | 1 | [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S907.md) | 中等 | 数组 / 单调栈 |
 | 2 | [891. 子序列宽度之和](https://leetcode.cn/problems/sum-of-subsequence-widths/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S891.md) | 困难 | 数组 / 数学 |
+
+## 🔥 模拟
+
+| # | Title | Solution | Diffuiculty | Topics |
+| :-- | :-- | :-- | :-- | :-- |
+| 1 | [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S764.md) | 中等 | 数组 / 模拟 |
+| 2 | [1106. 解析布尔表达式](https://leetcode.cn/problems/parsing-a-boolean-expression/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1106.md) | 困难 | 栈 / 模拟 |
 
 <!--
 ## 🔥 [LeetCode (力扣) Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/)
