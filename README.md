@@ -18,6 +18,14 @@
 | 3 | [113. 路径总和 II](https://leetcode.cn/problems/shortest-bridge/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S934.md) | 中等 | 数组 / 深度优先搜索 / 递归 |
 
 
+## 🔥 二分查找
+
+| # | Title | Solution | Diffuiculty | Topics |
+| :-- | :-- | :-- | :-- | :-- |
+| 1 | [1385. 两个数组间的距离值](https://leetcode.cn/problems/find-the-distance-value-between-two-arrays/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1385.md) | 简单 | 数组 / 二分查找 |
+
+
+
 ## 🔥 贪心
 
 | # | Title | Solution | Diffuiculty | Topics |
