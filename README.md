@@ -24,6 +24,7 @@
 | # | Title | Solution | Diffuiculty | Topics |
 | :-- | :-- | :-- | :-- | :-- |
 | 1. | [1385. 两个数组间的距离值](https://leetcode.cn/problems/find-the-distance-value-between-two-arrays/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1385.md) | 简单 | 数组 / 二分查找 |
+| 2. | [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S744.md) | 简单 | 数组 / 二分查找 |
 
 
 
