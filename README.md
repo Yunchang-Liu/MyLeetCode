@@ -6,7 +6,7 @@
 | # | Title | Solution | Diffuiculty | Topics |
 | :-- | :-- | :-- | :-- | :-- |
 | 1. | [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S121.md) | 简单 | 数组 / 动态规划 |
-| 2. | [799. 香槟塔](https://leetcode.cn/problems/champagne-tower/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S799.md) | 中等 | 线性DP / 动态规划 |
+| 2. | [799. 香槟塔](https://leetcode.cn/problems/champagne-tower/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S799.md) | 中等 | 线性DP |
 | 3. | [1235. 规划兼职工作](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1235.md) | 困难 | 数组 / 动态规划 / 二分查找 |
 | 4. | [801. 使序列递增的最小交换次数](https://leetcode.cn/problems/minimum-swaps-to-make-sequences-increasing/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S801.md) | 困难 | 数组 / 状态机DP |
 
@@ -41,14 +41,17 @@
 | :-- | :-- | :-- | :-- | :-- |
 | 1. | [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S496.md) | 简单 | 单调栈 / 哈希表 |
 | 2. | [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S907.md) | 中等 | 数组 / 单调栈 |
-| 3. | [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S901.md) | 中等 | 单调栈 |
+| 3. | [795. 区间子数组个数](https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S795.md) | 中等 | 数组 / 单调栈 |
+| 4. | [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S901.md) | 中等 | 单调栈 |
 
 ## 🔥 贡献法
 
 | # | Title | Solution | Diffuiculty | Topics |
 | :-- | :-- | :-- | :-- | :-- |
 | 1. | [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S907.md) | 中等 | 数组 / 单调栈 |
-| 2. | [891. 子序列宽度之和](https://leetcode.cn/problems/sum-of-subsequence-widths/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S891.md) | 困难 | 数组 / 数学 |
+| 2. | [795. 区间子数组个数](https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S795.md) | 中等 | 数组 / 单调栈 |
+| 3. | [891. 子序列宽度之和](https://leetcode.cn/problems/sum-of-subsequence-widths/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S891.md) | 困难 | 数组 / 数学 |
+
 
 ## 🔥 模拟
 
