@@ -60,6 +60,15 @@
 | 1. | [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S764.md) | 中等 | 数组 / 模拟 |
 | 2. | [1106. 解析布尔表达式](https://leetcode.cn/problems/parsing-a-boolean-expression/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1106.md) | 困难 | 栈 / 模拟 |
 
+
+## 🔥 优先队列
+
+| # | Title | Solution | Diffuiculty | Topics |
+| :-- | :-- | :-- | :-- | :-- |
+| 1. | [1337. 矩阵中战斗力最弱的 K 行](https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1337.md) | 简单 | 小根堆 / 二分查找 |
+
+
+
 <!--
 ## 🔥 [LeetCode (力扣) Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/)
 ◎ The questions that are also listed in the [Top Interview](https://leetcode.com/problemset/top-interview-questions/) are marked with『🔝 』.
