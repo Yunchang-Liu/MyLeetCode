@@ -25,6 +25,8 @@
 | :-- | :-- | :-- | :-- | :-- |
 | 1. | [1385. 两个数组间的距离值](https://leetcode.cn/problems/find-the-distance-value-between-two-arrays/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1385.md) | 简单 | 数组 / 二分查找 |
 | 2. | [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S744.md) | 简单 | 数组 / 二分查找 |
+| 3. | [1855. 下标对中的最大距离](https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1885.md) | 中等 | 数组 / 二分查找 |
+| 4. | [33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S33.md) | 中等 | 数组 / 二分查找 |
 
 
 
