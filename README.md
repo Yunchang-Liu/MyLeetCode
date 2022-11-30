@@ -62,7 +62,7 @@
 | :-- | :-- | :-- | :-- | :-- |
 | 1. | [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S764.md) | 中等 | 数组 / 模拟 |
 | 2. | [1106. 解析布尔表达式](https://leetcode.cn/problems/parsing-a-boolean-expression/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S1106.md) | 困难 | 栈 / 模拟 |
-
+| 3. | [895. 最大频率栈](https://leetcode.cn/problems/maximum-frequency-stack/description/) | [Java](https://github.com/Yunchang-Liu/MyLeetCode/blob/main/src/everyday/S895.md) | 困难 | 哈希表 / 模拟 |
 
 ## 🔥 优先队列
 
